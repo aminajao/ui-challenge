@@ -7,7 +7,6 @@ import {
   SidebarFooter,
   SidebarContent,
 } from 'react-pro-sidebar';
-import 'react-pro-sidebar/dist/css/styles.css';
 import '../styles/sidebar.css';
 import logo from '../assets/Vector.svg';
 import home from '../assets/Home.svg';
