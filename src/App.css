@@ -11,14 +11,20 @@
 
 .container {
   display: flex;
+  height: 100vh;
+  overflow: hidden;
 }
 
 .sidebar {
   flex: 1;
   height: 100vh;
+  position: sticky;
+  top: 0;
 }
 .main-content {
   flex: 5;
+  height: 100vh;
+  overflow-y: auto;
 }
 
 .hero-container {
